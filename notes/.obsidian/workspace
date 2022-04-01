@@ -1,0 +1,161 @@
+{
+  "main": {
+    "id": "59d61efbf8540211",
+    "type": "split",
+    "children": [
+      {
+        "id": "22284424d69d624a",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6563a21db04b6fee",
+    "type": "split",
+    "children": [
+      {
+        "id": "1acad9c1f72cda03",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f1af3b561ae8a85",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "85bfb57a9db5ce27",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "048bbbcdc126e06f",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "6fb70917a76d5230",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#clickhouse",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 425
+  },
+  "right": {
+    "id": "0588ae09d247e490",
+    "type": "split",
+    "children": [
+      {
+        "id": "b14941e13055ad6f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a2fb6ae278fa8972",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "abcbfe2ec5963ba0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "693b8cbc478b385a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "5ee9653451f47cc8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "a21801ac51a0e603",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "14b174d3156bd6db",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 285,
+    "collapsed": true
+  },
+  "active": "22284424d69d624a",
+  "lastOpenFiles": [
+    "README.md",
+    "编程/Python/源码详解/01 开篇词：为什么要钻研 Python 源码？.md",
+    "目录/目录-Python 源码详解.md",
+    "目录/目录-Python.md",
+    "主页.md",
+    "目录/目录-工具.md",
+    "目录/目录-算法.md",
+    "目录/目录-网络协议.md",
+    "目录/目录-Linux.md",
+    "目录/目录-Python 源码详解 1.md"
+  ]
+}

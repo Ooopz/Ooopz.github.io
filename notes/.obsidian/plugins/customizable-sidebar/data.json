@@ -1,0 +1,82 @@
+{
+  "sidebarCommands": [
+    {
+      "id": "obsidian-kanban:create-new-kanban-board",
+      "name": "创建新看板",
+      "icon": "presentation"
+    },
+    {
+      "id": "obsidian-enhancing-mindmap:Create New MindMap",
+      "name": "创建新思维导图",
+      "icon": "feather-file-plus"
+    },
+    {
+      "id": "editor:toggle-bold",
+      "name": "切换所选文本的粗体效果",
+      "icon": "bold-glyph",
+      "hotkeys": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "B"
+        }
+      ]
+    },
+    {
+      "id": "editor:toggle-italics",
+      "name": "切换所选文本的斜体效果",
+      "icon": "italic-glyph",
+      "hotkeys": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "I"
+        }
+      ]
+    },
+    {
+      "id": "obsidian-linter:lint-file",
+      "name": "Linter: Lint the current file",
+      "hotkeys": [
+        {
+          "modifiers": [
+            "Mod",
+            "Alt"
+          ],
+          "key": "l"
+        }
+      ],
+      "icon": "lines-of-text"
+    },
+    {
+      "id": "obsidian-pangu2:pangu2-format",
+      "name": "盘古(自改): 为中英文字符间自动加入空格",
+      "hotkeys": [
+        {
+          "modifiers": [
+            "Mod",
+            "Shift"
+          ],
+          "key": "s"
+        },
+        {
+          "modifiers": [
+            "Ctrl",
+            "Shift"
+          ],
+          "key": "s"
+        }
+      ],
+      "icon": "feather-type"
+    }
+  ],
+  "hiddenCommands": [
+    "Advanced Tables Toolbar",
+    "插入模板",
+    "开始漫游笔记",
+    "打开命令面板",
+    "打开快速切换"
+  ]
+}

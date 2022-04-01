@@ -1,0 +1,20 @@
+{
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "relative",
+  "attachmentFolderPath": "附件",
+  "showFrontmatter": false,
+  "showLineNumber": false,
+  "newFileLocation": "current",
+  "useMarkdownLinks": false,
+  "communityPluginSortOrder": "download",
+  "promptDelete": false,
+  "showUnsupportedFiles": true,
+  "useTab": false,
+  "smartIndentList": true,
+  "legacyEditor": false,
+  "livePreview": true,
+  "spellcheckLanguages": [
+    "en-US"
+  ],
+  "readableLineLength": true
+}

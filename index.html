@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: '',
+      repo: 'https://github.com/Ooopz/Ooopz.github.io.git',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      autoHeader: true,
+      loadNavbar: true,
+      notFoundPage: true,
+      coverpage: true,
+      relativePath: true,
+      auto2top: true,
+      mergeNavbar: true,
+      noCompileLinks: ['/notes/INBOX', '/notes/附件', '/notes/论文', '/notes/其他','/notes/.obsidian'],
+      
+      // 目录插件配置
+      toc: {
+        scope: '.markdown-section',
+        headings: 'h1, h2, h3, h4, h5, h6',
+        title: '目录',
+      },
+      
+      // 字数统计插件配置
+      count:{
+        countable: true,
+        position: 'top',
+        margin: '10px',
+        float: 'right',
+        fontsize:'0.9em',
+        color:'rgb(90,90,90)',
+        language:'chinese',
+        localization: {
+          words: "",
+          minute: ""
+        },
+        isExpected: true
+      },
+
+      //复制代码插件
+      copyCode: {
+        buttonText : '复制代码',
+        errorText  : '复制失败',
+        successText: '复制成功'
+      },
+    
+      //换页插件
+    pagination: {
+      previousText: '上一章节',
+      nextText: '下一章节',
+      crossChapter: true,
+      crossChapterText: true,
+    },
+    }
+  </script>
+  
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script> -->
+
+  <!-- latex插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
+  
+  <!-- wikilink插件 -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/docsify-wikilink@1"></script> -->
+  <!-- 原脚本有bug，自己修改了一下 -->
+  <script src="wikilink.js"></script>
+
+  <!-- 目录插件 -->
+  <link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.0.0/dist/toc.css">
+  <script src="https://unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script>
+  
+  <!-- 字数统计插件 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-count@latest/dist/countable.min.js"></script>
+
+  <!-- 复制代码插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  
+  <!-- 换页插件 -->
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  
+  <!-- 侧边栏折叠 -->
+  <!-- <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script> -->
+
+  <!-- 代码高亮 -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-c.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-sql.min.js"></script>
+
+</body>
+</html>

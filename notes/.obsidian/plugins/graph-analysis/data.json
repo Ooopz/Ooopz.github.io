@@ -1,0 +1,19 @@
+{
+  "noInfinity": true,
+  "noZero": true,
+  "allFileExtensions": false,
+  "showImgThumbnails": false,
+  "addUnresolved": true,
+  "coTags": true,
+  "defaultSubtypeType": "Adamic Adar",
+  "debugMode": false,
+  "superDebugMode": false,
+  "exclusionRegex": "",
+  "exclusionTags": [],
+  "algsToShow": [
+    "Co-Citations",
+    "Adamic Adar",
+    "Jaccard",
+    "Label Propagation"
+  ]
+}
